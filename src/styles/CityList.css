@@ -1,0 +1,31 @@
+.form_city {
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: center; /* Align items vertically center */
+    gap: 10px; /* Space between input and button */
+    margin: 20px 0; /* Margin around the form */
+    background-color: transparent;;
+}
+
+
+
+/* Style for the button */
+button {
+    padding: 10px 15px; /* Padding for button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #EA430E; /* Button background color */
+    color: white; /* Button text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s; /* Transition for hover effect */
+  margin-top: 0px;
+}
+
+.form_city button[type="submit"] {
+  margin-top: 0 !important;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0c007d; /* Darker background on hover */
+}
